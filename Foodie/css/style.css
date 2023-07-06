@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Great+Vibes&display=swap");
+
+* {
+  padding: px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.foodieim img {
+  width: 120px;
+}
+
+.nav-link {
+  font-size: 50px;
+}
+
+.simg {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  background-size: contain;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.timg {
+  width: 780px;
+  padding-top: 20px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.t2img {
+  width: 580px;
+  padding-top: 20px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.t3img {
+  width: 390px;
+  padding-top: 20px;
+  height: 280px;
+  object-fit: contain;
+}
+
+.t4img {
+  width: 530px;
+  padding-top: 20px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.t5img {
+  width: 230px;
+  border: 1px solid rgb(189, 188, 188);
+  height: 170px;
+  padding: 10px;
+}
+
+.images h5 {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.images p {
+  font-size: 14px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.foodieimages {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.t6img {
+  width: 100%;
+  height: 300px;
+}
+
+.imago {
+  display: flex;
+}
+
+.last {
+  background-color: rgb(235, 233, 233);
+}
+
+.lastone {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 250px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: none;
+}
+
+.apps {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(126, 125, 125);
+}
+
+.apps i {
+  padding: 5px;
+}
+
+.copy {
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  * {
+    padding: px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+  }
+
+  body p {
+    font-size: 12px;
+  }
+
+  .bar ul {
+    display: none;
+  }
+
+  .simg {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    background-size: contain;
+    background-size: 100% 100%;
+    object-fit: cover;
+  }
+  .timg {
+    padding-top: 5px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    object-fit: contain;
+  }
+
+  .t2img {
+    width: 360px;
+    padding-top: 5px;
+    height: 150px;
+    object-fit: contain;
+    align-items: center;
+    display: flex;
+  }
+
+  .t3img {
+    width: 360px;
+    padding-top: 5px;
+    height: 180px;
+    object-fit: contain;
+  }
+
+  .t4img {
+    width: 360px;
+    padding-top: 5px;
+    height: 170px;
+    object-fit: contain;
+  }
+
+  .t5img {
+    width: 200px;
+    border: 1px solid rgb(189, 188, 188);
+    height: 160px;
+    padding: 5px;
+  }
+
+  .foodieimages {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    background-size: cover;
+    background-size: 100% 100%;
+    object-fit: cover;
+  }
+
+  .images p {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px;
+  }
+
+  .lastone {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 12px;
+  }
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
